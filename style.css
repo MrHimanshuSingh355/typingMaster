@@ -4,6 +4,10 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    user-select: none;
+    position:fixed;
+    border: 4px rgb(206, 9, 9) solid;
+
 }
 
 section {
@@ -14,6 +18,7 @@ section {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
+    
 }
 
 .line {
@@ -21,7 +26,7 @@ section {
     height: 12vw;
     display: flex;
     justify-content: space-between;
-    /* border: 4px rgb(206, 9, 9) solid; */
+    border: 4px rgb(206, 9, 9) solid;
 
 }
 
@@ -52,4 +57,8 @@ section {
 
 .start:active {
     transform: scale(0.8);
+}
+#inputBox{
+    /* position: absolute;
+    bottom: 9999px; */
 }
